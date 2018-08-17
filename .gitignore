@@ -99,6 +99,9 @@ typings/
 !.vscode/launch.json
 !.vscode/extensions.json
 
+dist
+compiled
+
 
 # End of https://www.gitignore.io/api/node,linux,visualstudiocode
 
