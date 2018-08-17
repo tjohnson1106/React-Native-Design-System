@@ -2,9 +2,9 @@ import * as React from "react";
 import Component = React.Component;
 import createContext = React.createContext;
 
-const theme = {};
+import { theme } from "./theme";
 
-export const UtilityThemeContext = createContext({});
+export const UtilityThemeContext = createContext(theme);
 
 export default class UtilityThemeProvider extends Component {
   state = {
