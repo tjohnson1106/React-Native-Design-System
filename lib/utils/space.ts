@@ -12,8 +12,7 @@ export const spaceUtils = (props: any) => {
     paddingBottom?: number;
     paddingTop?: number;
     paddingHorizontal?: number;
-    paddingVertical?: n
-    const themeSpace = geumber;
+    paddingVertical?: number;
     paddingRight?: number;
     paddingLeft?: number;
   } = {};
