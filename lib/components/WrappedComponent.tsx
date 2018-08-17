@@ -16,6 +16,7 @@ const WrappedComponent = (Cp: React.ComponentType<IProps>) => {
           {val => <Cp theme={val} {...this.props} />}
         </UtilityThemeContext.Consumer>
       );
+      tyleSheetProperties;
     }
   };
 };
